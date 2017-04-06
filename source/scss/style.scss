@@ -1,0 +1,12 @@
+@import "variaveis.scss";
+@import "navbar/navbar.scss";
+
+.navbar{
+	@include navbar($navbar-theme-bg, $navbar-theme-color, $navbar-theme-border);
+	// @include navbar();
+	@extend %navbar-position;
+	.navbar-menu{
+		@extend %navbar-menu;
+		@include links($menu-hover-color, $menu-hover-bg);
+	}
+}

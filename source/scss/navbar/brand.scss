@@ -1,0 +1,19 @@
+@mixin navbar($navbar-bg: #eee, $navbar-color: #333, $navbar-border: 2px dotted){
+	background-color: $navbar-bg;
+	color: $navbar-color;
+	border: $navbar-border;
+}
+
+
+%navbar-position{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+%navbar-menu{
+	display: inline-block;
+	margin: 0 10px;
+	text-align: right;
+}

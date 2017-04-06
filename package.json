@@ -1,0 +1,21 @@
+{
+  "name": "atividade-sass",
+  "version": "1.0.0",
+  "description": "aula de sass",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "aula"
+  ],
+  "author": "Thiago Neves",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^3.0.0",
+    "gulp-htmlclean": "^2.7.14"
+  }
+}
